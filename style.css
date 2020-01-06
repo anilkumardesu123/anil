@@ -1,0 +1,65 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.ani{background-image: url("images/Meeting.png");height:400px;background-repeat:no-repeat;background-size:100%}
+.ani img{height:40px;width:100px}
+/* .nav li a {padding-left:40px;padding-right:40px} */
+/* .navbar-inverse .navbar-nav>.active>a{background-color:grey} */
+.nav li a {padding-right:40px!important; padding-left:40px!important}
+.nav li a:hover {border-bottom: 1px solid white}
+.nav .btn{margin-top:8px}
+.ani2{margin-left:120px}
+ .ani2 h1{color:white;margin-top:30px} 
+ .ani2 p{color:white;margin-top: 25px} 
+   @media only screen and (max-width:1024px) {
+    .ani {
+        background:url("images/Meeting.png"); 
+        height: auto; 
+    }
+     .ani2{margin-left:60px}
+  }   
+   .aa{margin-top:30px}
+  .button{color:blue}
+  .a{margin-top:50px}
+  .a h4{margin-top: 20px} 
+  .image{background-image: url("images/Woman.png");height:700px;background-repeat: no-repeat;background-size:100%;margin-top: 30px} 
+   .bc{background-color:white;height:600px;margin-top:70px;} 
+   @media only screen and (max-width:1024px) {
+   .image {
+    background:url("images/Woman.png"); 
+    height:auto;
+   }
+} 
+@media only screen and (max-width:1024px) {
+    .bc {
+     background-color:white;
+     height:auto;
+    }
+ } 
+
+  
+  .bc h1{padding:20px 20px} 
+ .bc h4{padding:20px 20px} 
+ .img{background-image: url("images/Team.jpg");height:500px;background-repeat:no-repeat;background-size:100%}
+ @media only screen and (max-width:1366px) {
+    .img {
+     background:url("images/Team.jpg"); 
+     height:auto;
+    }
+ } 
+ .da h1{padding-left:60px}
+ .da p{padding-left:60px;margin-top:30px;font-size: 18px}
+ @media only screen and (max-width:560px) {
+    .da {
+     background-color:white;
+     height:auto;
+    }
+ } 
+ .footer{background-color: black;height:auto}
+ .ab{margin-top:30px}
+ .aq img{height:60px;width:80px}
+ .az h4{color:white;}
+ .sa{padding:20px 20px}
+ .ds{padding:20px 30px}
